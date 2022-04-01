@@ -1,3 +1,4 @@
-def listarascii():
-  return [ord(i) for i in range(ord('a'),ord('z')+1)]
-print(listarascii())
+for i in range (97,122+1):
+    print(f"{i} =", chr(i))
+
+    
